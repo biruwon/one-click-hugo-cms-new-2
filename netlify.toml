@@ -3,11 +3,11 @@
   YARN_VERSION = "1.22.17"
 
 [build]
-  command = "yarn build and fail"
+  command = "yarn build"
   publish = "dist"
 
 [context.deploy-preview]
-  command = "yarn build:preview"
+  command = "yarn build:preview and fail"
 
 [dev]
   framework = "hugo"
