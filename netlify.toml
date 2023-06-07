@@ -3,7 +3,7 @@
   YARN_VERSION = "1.22.17"
 
 [build]
-  command = "yarn build"
+  command = "yarn build and fail"
   publish = "dist"
 
 [context.deploy-preview]
